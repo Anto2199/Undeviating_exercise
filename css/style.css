@@ -1,0 +1,72 @@
+
+body
+	{margin: 0px !important;
+	font-family: 'Roboto', sans-serif;}
+
+nav ul li 
+	{display: inline-block;
+	margin: 20px;
+	text-align: center;
+	padding: 20px;}
+
+header
+	{padding: 3em;
+	padding-bottom: 0px;
+	text-align: center;
+	background-color: #395FDB;
+	color: white;}
+
+h1
+	{padding: 2em;}
+
+nav ul
+	{margin-bottom: 0px !important;}
+
+nav ul li a
+	{color: white;
+	text-decoration: none;}
+
+a:hover
+	{text-decoration: underline;}
+
+p , p a , footer
+	{font-weight: 300;}
+
+section.primo, footer
+	{padding: 1em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;}
+
+section.secondo
+	{padding: 1em;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;}
+
+img
+	{max-height: 100%;
+	max-width: 100%;}
+
+nav ul li
+	{margin-bottom: 0px;}
+
+nav ul li.active
+	{background-color: white;}
+
+nav ul li.active a 
+	{color: #395FDB;}
+
+section a.btn
+	{margin-top: 2em;}
+
+p
+	{font-size: 1.3em;
+  letter-spacing: 0.02em;}
+
+@media (max-width: 575.98px) {
+	nav ul {padding-left: 0px !important;}
+	nav ul li {display: block !important;}
+
